@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burgmet | Inicio</title>
+  <link rel="icon" href="img/Burgmet ico.png" type="image/x-icon">
+<!--Enlaces de Bootstrap y CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--Header-->
+<nav class="navbar navbar-expand-lg bg-warning sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/Burgmet (1).png" alt="Logo Burgmet" width="150" height="50" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Principal -->
+<section class="hero">
+  <div class="hero-content ps-5 pe-5">
+    <h1>De las mejores hamburguesas artesanales en Bello.</h1>
+    <p>Hamburguesas artesanales con carne premium 100% local, pan horneado a diario y nuestras salsas secretas.</p>
+    <div class="hero-buttons">
+      <a href="productos.html" class="btn-primary">Ver Menú</a>
+      <a href="contacto.html" class="btn-secondary">Hacer Reserva</a>
+    </div>
+  </div>
+</section>
+
+<!-- Carrusel-->
+<div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+  <div class="container-fluid mt-3 text-center">
+    <h2><strong>Conoce nuestros platos más recomendados:</strong></h2>
+  </div>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/patatas.jpg" alt="Papas Burgmet" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h1>Papas Burgmet</h1>
+        <h2>Prueba nuestras papas especiales</h2>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/doble carbon.jpg" alt="Doble" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h1>Doble Carbón</h1>
+        <h2>Prueba nuestra mejor opción</h2>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/combo.jpg" alt="Combo Burgmet" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h1>Combo Burgmet</h1>
+        <h2>¿Qué tal un buen combo?</h2>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!--Footer-->
+<footer class="site-footer py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h3 class="h5 text-white">Escríbenos</h3>
+        <p class="small">Ubicación: Calle 75 #58-62<br>
+          <i class="bi bi-telephone"></i> +57 321 203 5439<br>
+          <i class="bi bi-envelope"></i> andersonorrego80@gmail.com
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="h6 text-white">Navegación</h3>
+        <ul class="list-unstyled small">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Quiénes Somos</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3 class="h6 text-white">Nuestras redes:</h3>
+        <div class="social-icons mb-3">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/573212035439" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <p class="small text-center mb-0">&copy; <span id="anioActual">2026</span> Burgmet. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('anioActual').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
