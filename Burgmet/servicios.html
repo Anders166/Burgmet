@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burgmet | Servicios</title>
+  <link rel="icon" href="img/Burgmet ico.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Burgmet (1).png" alt="Logo Burgmet" width="150" height="50" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<main>
+<!--Pagina de servicios-->
+<section id="servicios" class="section-pad">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-7">
+        <h2 class="section-title">¿Qué ofrecemos?</h2>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-bicycle"></i></div>
+          <h3>Domicilios</h3>
+          <p>Entrega en menos de 35 minutos dentro de un radio de 6km.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-people"></i></div>
+          <h3>Catering & eventos</h3>
+          <p>Parrilla móvil para bodas, cumpleaños y eventos corporativos.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-bag-check"></i></div>
+          <h3>Para llevar</h3>
+          <p>Ordena por app o teléfono y recoge sin hacer fila.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-gift"></i></div>
+          <h3>Burgmet+</h3>
+          <p>Acumula puntos, canjea hamburguesas y accede a lanzamientos antes que nadie.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+  <footer class="site-footer py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h3 class="h5 text-white">Escríbenos</h3>
+          <p class="small">Ubicación: Calle 75 #58-62<br>
+            <i class="bi bi-telephone"></i> +57 321 203 5439<br>
+            <i class="bi bi-envelope"></i> andersonorrego80@gmail.com
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 text-white">Navegación</h3>
+          <ul class="list-unstyled small">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Quiénes Somos</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 text-white">Nuestras redes:</h3>
+          <div class="social-icons mb-3">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/573212035439" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <p class="small text-center mb-0">&copy; <span id="anioActual">2026</span> Burgmet. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('anioActual').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

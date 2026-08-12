@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burgmet | Productos</title>
+  <link rel="icon" href="img/Burgmet ico.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Burgmet (1).png" alt="Logo Burgmet" width="150" height="50" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main>
+<!--Pagina de productos con Grid-->
+
+  <section class="hero-section">
+    <div class="container">
+      <h1 class="display-title">Conoce nuestro menú</h1>
+    </div>
+  </section>
+
+  <section id="productos" class="section-pad bg-charcoal">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/clasica.jpg" class="card-img-top" alt="Burgmet Clásica">
+            <div class="card-body">
+              <h3>Burgmet Clásica</h3>
+              <p>Res 150g, queso cheddar, lechuga, tomate, cebolla y salsa de la casa.</p>
+              <span class="menu-price">$28.000</span>
+              <a href="contacto.html" class="btn btn-brand">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/doble carbon.jpg" class="card-img-top" alt="Doble Carbón">
+            <div class="card-body">
+              <h3>Doble Carbón</h3>
+              <p>Dos carnes de 120g, doble cheddar, tocineta y cebolla caramelizada.</p>
+              <span class="menu-price">$36.000</span>
+              <a href="contacto.html" class="btn btn-brand">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/vegano.jpg" class="card-img-top" alt="Burgmet Vegana">
+            <div class="card-body">
+              <h3>Burgmet Vegana</h3>
+              <p>Base de garbanzo y champiñón asado, queso, aguacate y salsa chipotle.</p>
+              <span class="menu-price">$27.000</span>
+              <a href="contacto.html" class="btn btn-brand">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/bbq.jpg" class="card-img-top" alt="Burgmet BBQ">
+            <div class="card-body">
+              <h3>Burgmet BBQ</h3>
+              <p>Res 150g ahumada 4 horas, queso gouda, aros de cebolla y salsa BBQ de la casa.</p>
+              <span class="menu-price">$32.000</span>
+              <a href="contacto.html" class="btn btn-brand">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/patatas.jpg" class="card-img-top" style="height:200px;object-fit:cover;" alt="Papas al carbón">
+            <div class="card-body">
+              <h3>Papas al carbón</h3>
+              <p>Cortadas a mano, con especias ahumadas y alioli.</p>
+              <span class="menu-price">$12.000</span>
+              <a href="contacto.html" class="btn btn-brand">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/combo.jpg" class="card-img-top" style="height:200px;object-fit:cover;" alt="Combo Burgmet">
+            <div class="card-body">
+              <h3>Combo Burgmet</h3>
+              <p>Hamburguesa clásica + papas al carbón + bebida.</p>
+              <span class="menu-price">$38.000</span>
+              <a href="contacto.html" class="btn btn-brand">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="site-footer py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h3 class="h5 text-white">Escríbenos</h3>
+          <p class="small">Ubicación: Calle 75 #58-62<br>
+            <i class="bi bi-telephone"></i> +57 321 203 5439<br>
+            <i class="bi bi-envelope"></i> andersonorrego80@gmail.com
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 text-white">Navegación</h3>
+          <ul class="list-unstyled small">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Quiénes Somos</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6 text-white">Nuestras redes:</h3>
+          <div class="social-icons mb-3">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/573212035439" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <p class="small text-center mb-0">&copy; <span id="anioActual">2026</span> Burgmet. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('anioActual').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
